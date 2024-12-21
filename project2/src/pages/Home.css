@@ -1,0 +1,35 @@
+.card-container {
+    display: flex;
+    justify-content: center; /* Center the cards */
+    gap: 10px; /* Adjust gap between cards */
+    flex-wrap: wrap; /* Ensure cards wrap on smaller screens */
+  }
+  
+  .card {
+    width: 250px; /* Reduce card width */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 150px; /* Reduce height */
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+  
+  .card h3 {
+    margin: 10px 0;
+    font-size: 1.3rem; /* Slightly smaller text */
+    color: #333;
+  }
+  
+  .card p {
+    font-size: 0.9rem; /* Reduce paragraph text size */
+    color: #555;
+    padding: 0 10px 10px;
+  }
+  

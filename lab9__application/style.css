@@ -1,0 +1,66 @@
+.btnpressme {
+    padding: 0.5em 2em;
+    color: whitesmoke;
+    border-radius: 12px;
+    background-color: rgb(50, 50, 50);
+}
+.btnactive {
+    background-color: crimson;
+    font-weight: bolder;
+}
+
+/* MODAL WINDOW */
+.modalwindow {
+    background-color: rgba(100, 100, 100, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+.modalinfo {
+    background-color: white;
+    margin: 10% auto;
+    height: 500px;
+    width: 800px;
+    position: relative;
+}
+.closemodalx {
+    font-size: 2em;
+    padding: 12px;
+    display: inline-block;
+    color: gray;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    cursor: pointer;
+}
+.closemodalx:hover {
+    color: crimson;
+}
+.modalcontenttitle {
+    font-size: 2em;
+    color: darkslategray;
+    text-align: center;
+}
+.modalcontenttext {
+    font-size: 2em;
+    color: crimson;
+    text-align: center;
+    font-weight: bolder;
+}
+.btnpromotion {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    background-color: darkslategray;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btnpromotion:hover {
+    background-color: crimson;
+    cursor: pointer;
+}
+

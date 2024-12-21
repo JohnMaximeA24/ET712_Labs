@@ -1,0 +1,89 @@
+body {
+    font-family: 'Comic Neue', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #6ca4cc; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #ff5722; 
+    color: #edb61f; 
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    margin: 20px 0; 
+}
+
+.nav-btn, .quiz-btn, .game-btn, #changeTextBtn, #resetQuizBtn {
+    cursor: pointer;
+    font-size: 18px;
+    margin: 10px; 
+    padding: 10px 20px; 
+    background-color: #ffeb3b; 
+    border: none;
+    border-radius: 5px; 
+    color: #000;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.nav-btn:hover, .quiz-btn:hover, .game-btn:hover, #changeTextBtn:hover, #resetQuizBtn:hover {
+    background-color: #2268ff; 
+    transform: scale(1.05); 
+}
+
+.fun-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Centering the button in the explore section */
+#explore {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+}
+
+#changeTextBtn {
+    margin-top: 20px; 
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px; 
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff5722; 
+    color: #ffffff; 
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+/* Additional styles for sections */
+section {
+    background-color: #e37c65; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    margin: 20px 0; 
+    width: 80%; 
+}
+
+/* Style for the quiz result */
+#quizResult {
+    font-weight: bold;
+    margin-top: 10px;
+}

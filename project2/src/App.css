@@ -1,0 +1,205 @@
+body {
+  margin: 0;
+<<<<<<< HEAD
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Changed to a more modern and readable font */
+  font-size: 1rem; /* Increased font size for better readability */
+  background-image: url('./images/backgroundwebsite.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  color: #333;
+}
+
+.navbar {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  margin: 0 15px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  padding: 10px 20px;
+  border: 2px solid transparent;
+  border-radius: 25px;
+}
+
+.navbar-links a.hover-button:hover {
+  background-color: #4caf50;
+  color: white;
+  border: 2px solid white;
+}
+
+img {
+  max-width: 40%; /* Reduces image size for better layout */
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.content {
+  margin-top: 80px; /* Offset for fixed navbar */
+  width: 90%;
+  max-width: 1200px;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Button for modal */
+.toggle-button {
+  position: fixed;
+  bottom: 20px; /* Adjusts position from the bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  background-color: #4ca3af;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-button:hover {
+  background-color: #45a049;
+}
+
+/* Modal styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1001;
+}
+
+.modal-content {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  text-align: center;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #333;
+}
+
+.input-field {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-button {
+  padding: 10px 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+.website-header {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.website-header h1 {
+  font-size: 2.5rem;
+  color: #4caf50; 
+=======
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #007BFF;
+  padding: 10px 0;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 0 10px;
+  border-radius: 4px;
+}
+
+.navbar a:hover {
+  background-color: #0056b3;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.city-image {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  font-size: 18px;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+>>>>>>> c4a8b53340961b6fe87961a775bcdbead7cd901e
+}

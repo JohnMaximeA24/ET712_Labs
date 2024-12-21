@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun Kids Adventure!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Fun Kids Adventure Portal!</h1>
+        <nav>
+            <button class="nav-btn" data-section="explore">Explore</butt
+                on>
+            <button class="nav-btn" data-section="quiz">Quiz</button>
+<<<<<<< HEAD
+            <button class="nav-btn" data-section="games"> Game Numbers</button>
+=======
+            <button class="nav-btn" data-section="games">Games</button>
+>>>>>>> c4a8b53340961b6fe87961a775bcdbead7cd901e
+            <button class="nav-btn" data-section="about">About Us</button>
+        </nav>
+    </header>
+    <main>
+        <section id="explore" class="active-section">
+            <h2>Explore and Learn!</h2>
+            <p>This website is full of fun activities and learning games just for you!</p>
+            <img src="https://thumbs.dreamstime.com/b/kids-painted-hand-art-colorful-rainbow-hand-prints-sky-background-fun-life-nature-web-design-related-79010396.jpg" alt="Fun Image" class="fun-image">
+            <button id="changeTextBtn">Click me for a surprise!</button>
+        </section>
+        <section id="quiz" style="display: none;">
+            <h2>Quick Quiz!</h2>
+            <p>What is the capital of the country Philippines?</p>
+            <div class="button-container">
+                <button class="quiz-btn" data-answer="correct">Manila</button>
+                <button class="quiz-btn" data-answer="wrong">Washington D.C</button>
+                <button class="quiz-btn" data-answer="wrong">Tokyo</button>
+            </div>
+            <p id="quizResult"></p>
+            <button id="resetQuizBtn" style="display:none;">Try Again</button>
+        </section>
+        <section id="games" style="display: none;">
+            <h2>Fun Games!</h2>
+<<<<<<< HEAD
+            <p>Get ready to pop some game numbers!</p>
+=======
+            <p>Get ready to play some exciting games!</p>
+>>>>>>> c4a8b53340961b6fe87961a775bcdbead7cd901e
+            <div class="button-container">
+                <button class="game-btn" onclick="alert('You clicked Game 1!')">Game 1</button>
+                <button class="game-btn" onclick="alert('You clicked Game 2!')">Game 2</button>
+            </div>
+        </section>
+        <section id="about" style="display: none;">
+            <h2>About Us</h2>
+            <p>We are dedicated to providing fun and providing a simple fun website for kids! <p>
+                <p> Made by John Maxime Aritmetica - October 30 2024</p>
+        </section>
+    </main>
+    <script src="website.js"></script>
+</body>
+</html>

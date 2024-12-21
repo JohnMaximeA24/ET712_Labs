@@ -1,0 +1,40 @@
+*{box-sizing: border-box;}
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.headertop {
+    border: solid blue 1px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navleft, .navright {
+    width: 50%;
+    height: 50px;
+    border: red solid 1px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navleft div: :nth-child(1){
+    width: 100px
+}
+
+.homeiconing{
+    padding: 10px
+}
+
+.homeiconlink{
+    padding: 30px 10px;
+    font-family:"Arial Black";
+    font-size: 1.4em;
+}
+
+.emailimage{
+    width: 50%;
+    height:50%;
+    display: block;
+}
